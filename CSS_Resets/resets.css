@@ -1,0 +1,339 @@
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* Minimalist Reset */
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+    /* Condensed Universal Reset */
+
+* {  
+    vertical-align: baseline;  
+    font-family: inherit;  
+    font-style: inherit;  
+    font-size: 100%;  
+    border: none;  
+    padding: 0;  
+    margin: 0;  
+    }  
+body {  
+    padding: 5px;  
+    }  
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
+    margin: 20px 0;  
+    }  
+li, dd, blockquote {  
+    margin-left: 40px;  
+    }  
+table {  
+    border-collapse: collapse;  
+    border-spacing: 0;  
+    }
+/* Siolon's Global Reset */
+/* Chris Poteet along with “various influences” created this remarkable technique for resetting default browser styles. Chris recommends placing the reset at the top of your style sheet for optimal cascading results. This method omits reset styles involving inline and block display elements. Also, remember to explicitly set margin and padding styles after implementing the reset. Note the unique margin-left 40px; declaration for lists and blockquotes, and the margin 20px 0; for headings, forms, and other elements: */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    padding: 0;
+    margin: 0;
+    }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+fieldset,img { 
+    border: 0;
+    }
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+    }
+ol,ul {
+    list-style: none;
+    }
+caption,th {
+    text-align: left;
+    }
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    }
+q:before,q:after {
+    content:'';
+    }
+abbr,acronym { border: 0;
+    }
+/* Yahoo CSS Reset */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+	padding: 0;
+	margin: 0;
+	}
+fieldset, img { 
+	border: 0;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-weight: normal;
+	font-style: normal;
+	}
+caption, th {
+	text-align: left;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+	}
+q:before, q:after {
+	content: '';
+	}
+abbr, acronym { 
+	border: 0;
+	}
+/* Condensed Meyer Reset */
+/* Although I am uncertain as to the original source of this particular CSS reset, it appears as if it is a condensed, slightly modified version of the Meyer reset. Many of the same declarations are made, and many of the same styles receive neutralizing treatments. Many attributes are not mentioned, however, resulting in more streamlined, less invasive reset collection. Note the duplicate declarations for the heading attributes (e.g., h1 – h6), which seems to prevent font-weight and font-size normalization from affecting paragraphs, divisions, and the other non-heading attributes addressed in the first declaration. */
+
+------------------------------------------------------------------------
+
+/* undohtml.css */
+/* (CC) 2004 Tantek Celik. Some Rights Reserved.                  */
+/* http://creativecommons.org/licenses/by/2.0                     */
+/* This style sheet is licensed under a Creative Commons License. */
+/* Purpose: undo some of the default styling of common (X)HTML browsers */
+
+/* link underlines tend to make hypertext less readable, 
+   because underlines obscure the shapes of the lower halves of words */
+   :link,:visited { text-decoration:none }
+
+   /* no list-markers by default, since lists are used more often for semantics */
+   ul,ol { list-style:none }
+   
+   /* avoid browser default inconsistent heading font-sizes */
+   /* and pre/code too */
+   h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+   
+   /* remove the inconsistent (among browsers) default ul,ol padding or margin  */
+   /* the default spacing on headings does not match nor align with 
+      normal interline spacing at all, so let's get rid of it. */
+   /* zero out the spacing around pre, form, body, html, p, blockquote as well */
+   /* form elements are oddly inconsistent, and not quite CSS emulatable. */
+   /*  nonetheless strip their margin and padding as well */
+   ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+   { margin:0; padding:0 }
+   
+   /* whoever thought blue linked image borders were a good idea? */
+   a img,:link img,:visited img { border:none }
+   
+   /* de-italicize address */
+   address { font-style:normal }
+   
+   /* more varnish stripping as necessary... */
+
+
+
+
+
+
+   /* ^Tanek's CSS Reset/ Tanek's CSS Reset reformated and comments removed \/ */
+/* Dubbed “undohtml.css”, Tantek’s CSS Reset is a solid choice for removing many of the most obtrusive default browser styles. This reset removes underlines from links and borders from linked images, eliminates padding and margins for the most common block-level elements, and sets the font size to 1em for headings, code, and paragraphs. As an added bonus, Tantek’s reset also “de-italicizes” the infamous address element! Nice :) */
+
+
+
+
+
+
+/* undohtml.css */
+/* (CC) 2004 Tantek Celik. Some Rights Reserved.                  */
+/* http://creativecommons.org/licenses/by/2.0                     */
+/* This style sheet is licensed under a Creative Commons License. */
+
+:link, :visited {
+	text-decoration: none;
+	}
+ul, ol {
+	list-style: none;
+	}
+h1, h2, h3, h4, h5, h6, pre, code, p {
+	font-size: 1em;
+	}
+ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, 
+form, body, html, p, blockquote, fieldset, input {
+	padding: 0;
+	margin: 0;
+	}
+a img, :link img, :visited img {
+	border: none;
+	}
+address {
+	font-style: normal;
+	}
+
+
+--------------------------------------------------------------
+
+
+/*
+    Tripoli is a generic CSS standard for HTML rendering. 
+    Copyright (C) 2007  David Hellsing
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+* { margin: 0; padding: 0; text-decoration: none; font-size: 1em; outline: none; }
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext { font: inherit; font-size: 1em; white-space: normal; }
+dfn, i, cite, var, address, em { font-style: normal; }
+th, b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table { border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td, center { text-align: left; vertical-align: top; }
+body { line-height: 1; background: white; color: black; }
+q { quotes: "" ""; }
+ul, ol, dir, menu { list-style: none; }
+sub, sup { vertical-align: baseline; }
+a { color: inherit; }
+hr { display: none; } /* we don't need a visual hr in layout */
+font { color: inherit !important; font: inherit !important; color: inherit !important; } /* disables some nasty font attributes in standard browsers */
+marquee { overflow: inherit !important; -moz-binding: none; }
+blink { text-decoration: none; }
+nobr { white-space: normal; }
+
+/*
+CHANGELOG
+
+23/8-07
+
+Added deprecated tags <listing>, <xmp> and <plaintext> in the code block
+
+Resorted to normal white-space in all code tags
+
+Disabled the deprecated <marquee>, <blink> and <nobr> tag in some browsers
+
+*/
+
+
+
+
+
+
+/* ^Tripoli Reset/ Tripoli Reset Condensed \/ */
+/* The Tripoli Reset by David Hellsing is part of a complete CSS standard for (X)HTML rendering. By neutralizing browser-default CSS styles, Tripoli “forms a stable, cross-browser rendering foundation for your web projects.” After resetting CSS styles, Tripoli’s generic.css rules may be used to “rebuild” the browser defaults for content typography. Some of the more prominent reset features include: white-space in all code tags, disabling of the <hr> element, all text reset such that 1em equals 10px, targeted disabling of deprecated elements: <marquee>, <blink> and <nobr>, inclusion of deprecated elements: <listing>, <xmp> and <plaintext>, disabling of the <font> tag and other deprecated elements, ..plus much more! */
+
+
+
+
+
+
+
+/*
+    Tripoli is a generic CSS standard for HTML rendering. 
+    Copyright (C) 2007  David Hellsing
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+* {
+	text-decoration: none;
+	font-size: 1em;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	}
+code, kbd, samp, pre, tt, var, textarea, 
+input, select, isindex, listing, xmp, plaintext {
+	white-space: normal;
+	font-size: 1em;
+	font: inherit;
+	}
+dfn, i, cite, var, address, em { 
+	font-style: normal; 
+	}
+th, b, strong, h1, h2, h3, h4, h5, h6 { 
+	font-weight: normal; 
+	}
+a, img, a img, iframe, form, fieldset, 
+abbr, acronym, object, applet, table {
+	border: none; 
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+caption, th, td, center { 
+	vertical-align: top;
+	text-align: left;
+	}
+body { 
+	background: white; 
+	line-height: 1; 
+	color: black; 
+	}
+q { 
+	quotes: "" ""; 
+	}
+ul, ol, dir, menu { 
+	list-style: none; 
+	}
+sub, sup { 
+	vertical-align: baseline; 
+	}
+a { 
+	color: inherit; 
+	}
+hr { 
+	display: none; 
+	}
+font { 
+	color: inherit !important; 
+	font: inherit !important; 
+	color: inherit !important; /* editor's note: necessary? */ 
+	}
+marquee {
+	overflow: inherit !important;
+	-moz-binding: none;
+	}
+blink { 
+	text-decoration: none; 
+	}
+nobr { 
+	white-space: normal; 
+	}

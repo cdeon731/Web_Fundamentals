@@ -1,0 +1,150 @@
+/* CSS Reset */
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+/* Stylings */
+h2, h3, h4, p, button {
+    margin-bottom: 1rem;
+}
+
+/* Navbar */
+.navbar {
+    margin: 0px 50px;
+    background-color: lightgray;
+    height: 12vh;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.searchbar {
+    height: 30px;
+    min-width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-indent: 5px;
+}
+
+/* Container */
+.container {
+    margin: 20px 50px;
+    height: 600px;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.row-1 {
+    margin-right: 60px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box {
+    margin: 20px 0px;
+    padding: 30px;
+    height: 400px;
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-box {
+    margin: 20px 0px;
+    padding: 30px;
+    height: 400px;
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+.row-2 {
+    width: 400px;
+}
+
+.right-box {
+    margin: 20px 30px;
+    padding: 30px;
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+h2 {
+    font-size: 46px;
+}
+
+h3 {
+    font-size: 26px;
+    font-style: italic;
+}
+h4 {
+    font-size: 16px;
+}
+
+span {
+    font-style: italic;
+}
+
+p {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.add-definition-txt {
+    font-size: 34px;
+}
+
+/* Buttons */
+#login_button {
+    color: whitesmoke;
+    background-color: blue;
+    height: 30px;
+    width: 70px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 1px black;
+}
+
+#like_button_1, #like_button_2 {
+    background-color: yellow;
+    height: 40px;
+    width: 80px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 1px black;
+}
+
+#add_definiton {
+    background-color: green;
+    height: 40px;
+    width: 280px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 1px black;
+}

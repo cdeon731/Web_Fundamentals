@@ -1,0 +1,110 @@
+/* Resets and Styling */
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+h1, h2, p, img {
+    margin-bottom: 1rem;
+}
+
+/* Navbar & Header */
+.navbar {
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: black;
+    margin: 0px 150px;
+    height: 50px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Container & Rows */
+img {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    height: 600px;
+    min-width: 300px;
+    margin: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_1 {
+    height: 600px;
+    width: 400px;
+    display: flex;
+}
+
+.profile {
+    height: 400px;
+    width: 250px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.row_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.neil, .nichole, .jim {
+    height: 150px;
+    min-width: 300px;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like_1, .like_2, .like_3 {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Button */
+button {
+    height: 30px;
+    width: 50px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 3px 3px 0px black;
+}
